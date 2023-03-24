@@ -10,10 +10,12 @@ export default function Home() {
       {/* body */}
       <div className="flex flex-col items-center mt-24">
         <Image
+          priority
           src={"/google_banner.png"}
           alt="google image"
-          width={300}
+          width={200}
           height={100}
+          className="h-auto w-auto"
         />
 
         <HomeSearch />
